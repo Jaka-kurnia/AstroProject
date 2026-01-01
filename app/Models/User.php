@@ -47,10 +47,6 @@ class User extends Authenticatable implements MustVerifyEmail
         ];
     }
 
-    /* =====================
-     |  RELATIONSHIPS
-     ===================== */
-
     // User memiliki banyak Undangan
     public function undangans()
     {
@@ -60,6 +56,6 @@ class User extends Authenticatable implements MustVerifyEmail
     // User memiliki banyak Landing Page
     public function landingPages()
     {
-        return $this->hasMany(LandingPage::class);
+        return $this->hasMany(Landing_Page::class);
     }
 }
