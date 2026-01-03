@@ -107,22 +107,23 @@
 
         <section class="py-20 bg-gray-50 overflow-hidden">
             <div class="max-w-7xl mx-auto px-6 relative">
-                <div class="grid lg:grid-cols-2 gap-10 items-center">
 
-                    <!-- IMAGE -->
-                    <div class="relative h-[420px] rounded-xl overflow-hidden">
+                <div class="relative h-[520px]">
+
+                    <!-- IMAGE (70%) -->
+                    <div class="relative h-full w-[70%] rounded-xl overflow-hidden">
                         <img id="sliderImage" src="assets/img/service-1.jpg"
                             class="w-full h-full object-cover transition-all duration-500">
                     </div>
 
-                    <!-- CARD AREA -->
-                    <div class="relative h-[420px]">
+                    <!-- CARD AREA (HALF OVER IMAGE) -->
+                    <div
+                        class="absolute top-1/2 -translate-y-1/2
+                        right-[-180px] h-[420px] w-[760px]">
 
                         <!-- ACTIVE CARD -->
                         <div id="cardActive"
-                            class="absolute left-0 top-0 w-[360px] h-full
-                           bg-blue-800 text-white rounded-xl
-                           p-10 shadow-xl transition-all duration-500 z-20">
+                            class="absolute left-0 top-0 w-[310px] h-72 bg-blue-800 text-white rounded-xl  p-10 shadow-xl transition-all duration-500 z-20">
 
                             <h3 id="activeTitle" class="text-2xl font-bold mb-3">
                                 Annual Reports
@@ -133,10 +134,9 @@
                             </p>
                             <div class="flex justify-end text-2xl">↗</div>
                         </div>
-
                         <!-- NEXT CARD -->
                         <div id="cardNext"
-                            class="absolute left-[390px] top-0 w-[360px] h-full
+                            class="absolute left-[350px] top-0 w-[310px] h-72
                            bg-white text-gray-900 rounded-xl
                            p-10 shadow-md transition-all duration-500 z-10">
 
@@ -150,25 +150,24 @@
                             <div class="flex justify-end text-2xl">↗</div>
                         </div>
                     </div>
-                </div>
 
-                <!-- ARROWS -->
-                <div class="absolute bottom-6 right-0 flex gap-3 z-30">
-                    <button id="prevBtn"
-                        class="w-12 h-12 bg-white border rounded-lg flex items-center justify-center
-               hover:bg-gray-100 shadow">
-                        ←
-                    </button>
-                    <button id="nextBtn"
-                        class="w-12 h-12 bg-white border rounded-lg flex items-center justify-center
-               hover:bg-gray-100 shadow">
-                        →
-                    </button>
-                </div>
+                    <!-- ARROWS -->
+                    <div class="absolute bottom-6 right-6 flex gap-3 z-30">
+                        <button id="prevBtn"
+                            class="w-12 h-12 bg-white border rounded-lg flex items-center justify-center
+                           hover:bg-gray-100 shadow">
+                            ←
+                        </button>
+                        <button id="nextBtn"
+                            class="w-12 h-12 bg-white border rounded-lg flex items-center justify-center
+                           hover:bg-gray-100 shadow">
+                            →
+                        </button>
+                    </div>
 
+                </div>
+            </div>
         </section>
-
-
 
 
         <!-- PORTFOLIO / GALLERY -->
