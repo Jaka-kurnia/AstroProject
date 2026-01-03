@@ -16,6 +16,6 @@ class Undangan extends Model
 
     public function user()
     {
-        return $this->belogsTo(User::class);
+        return $this->belongsTo(User::class);
     }
 }
