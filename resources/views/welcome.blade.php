@@ -170,18 +170,80 @@
         </section>
 
 
-        <!-- PORTFOLIO / GALLERY -->
-        <section id="portfolio" class="py-16">
+        <!-- ESG SECTION -->
+        <section id="portfolio" class="py-20 bg-white">
             <div class="max-w-7xl mx-auto px-6">
-                <h3 class="text-2xl font-semibold text-center mb-8">Portofolio Kami</h3>
-                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                    <div class="bg-gray-200 h-40"></div>
-                    <div class="bg-gray-200 h-40"></div>
-                    <div class="bg-gray-200 h-40"></div>
-                    <div class="bg-gray-200 h-40"></div>
+                <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+
+                    <!-- Card 1 -->
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1581091870627-3d2c7b1d7c1b" alt="Pencapaian ESG"
+                            class="w-full h-64 object-cover rounded-xl" />
+
+                        <h3 class="text-2xl font-bold mt-6">
+                            Pencapaian dan Peringkat ESG
+                        </h3>
+
+                        <p class="text-gray-600 mt-3 leading-relaxed">
+                            Beberapa pengakuan nasional dan internasional yang kami raih
+                            pada tahun ini mencerminkan kinerja solid dan upaya
+                            keberlanjutan kami.
+                        </p>
+
+                        <button
+                            class="mt-6 inline-flex items-center gap-2 px-6 py-3 border border-gray-400 rounded-full text-sm font-medium hover:bg-gray-100 transition">
+                            Selengkapnya
+                            <span>→</span>
+                        </button>
+                    </div>
+                    <!-- Card 2 -->
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6"
+                            alt="Komitmen Keberlanjutan" class="w-full h-64 object-cover rounded-xl" />
+
+                        <h3 class="text-2xl font-bold mt-6">
+                            Komitmen Keberlanjutan
+                        </h3>
+
+                        <p class="text-gray-600 mt-3 leading-relaxed">
+                            Temukan prestasi dan rating Pertamina di Lingkungan, Sosial,
+                            dan Tata Kelola (ESG). Pelajari kemajuan dan pengakuan kami
+                            dalam upaya keberlanjutan.
+                        </p>
+
+                        <button
+                            class="mt-6 inline-flex items-center gap-2 px-6 py-3 border border-gray-400 rounded-full text-sm font-medium hover:bg-gray-100 transition">
+                            Selengkapnya
+                            <span>→</span>
+                        </button>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1581093458791-9f3c3900df34"
+                            alt="Laporan dan Publikasi" class="w-full h-64 object-cover rounded-xl" />
+
+                        <h3 class="text-2xl font-bold mt-6">
+                            Laporan dan Publikasi
+                        </h3>
+
+                        <p class="text-gray-600 mt-3 leading-relaxed">
+                            Telusuri laporan, artikel, siaran pers, dan pembaruan
+                            terbaru kami yang menyoroti komitmen kami terhadap
+                            keberlanjutan.
+                        </p>
+
+                        <button
+                            class="mt-6 inline-flex items-center gap-2 px-6 py-3 border border-gray-400 rounded-full text-sm font-medium hover:bg-gray-100 transition">
+                            Selengkapnya
+                            <span>→</span>
+                        </button>
+                    </div>
+
                 </div>
             </div>
         </section>
+
 
         <!-- CONTACT -->
         <section id="contact" class="py-16 bg-[#F7F3EF]">
